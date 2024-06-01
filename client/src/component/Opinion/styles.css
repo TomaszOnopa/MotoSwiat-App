@@ -1,0 +1,64 @@
+.opinion {
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.opinion-info {
+    display: flex;
+    background-color: rgb(140, 20, 20);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.opinion-info .details {
+    align-self: flex-end;
+    padding-left: 5px;
+    font-size: 0.75em;
+}
+
+.opinion-info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(140, 20, 20);
+    border-radius: 5px;
+}
+.user-opinion-info {
+    display: flex;
+    color: white;
+}
+.user-opinion-info .details {
+    align-self: flex-end;
+    padding-left: 5px;
+    font-size: 0.75em;
+}
+.opinion-info-container button {
+    float: right;
+
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: rgb(140, 20, 20);
+}
+.opinion-info-container button img {
+    width: 16px;
+}
+
+.opinion-value {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.opinion-notes {
+    padding: 10px;
+}
+
+.rating-avg {
+    margin: 10px;
+    font-size: 4em;
+}
+
+.rating label {
+    align-self: center;
+}

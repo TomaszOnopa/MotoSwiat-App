@@ -1,0 +1,29 @@
+.home-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.home-article-container {
+    width: 30%;
+    margin: 10px;
+}
+
+.home-article-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.home-article-img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 16/10;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.home-article-title {
+    margin: 15px;
+    font-size: 1em;
+}

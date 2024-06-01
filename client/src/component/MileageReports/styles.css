@@ -1,0 +1,66 @@
+.fuel-table {
+    width: 100%;
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-spacing: 0px;
+}
+.fuel-table th {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 8px;
+}
+.fuel-table tr td {
+    width: 33%;
+    padding: 8px;
+    text-align: center;
+}
+
+.fuel-table-container {
+    display: flex;
+}
+
+.fuel-petrol {
+    background-color: green;
+    color: white;
+}
+.fuel-diesel {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+.fuel-other {
+    background-color: aqua;
+}
+
+.report {
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.report-info {
+    background-color: rgb(140, 20, 20);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.report-info button {
+    float: right;
+
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: rgb(140, 20, 20);
+}
+.report-info button img {
+    width: 16px;
+}
+
+.report-value {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.report-notes {
+    padding: 10px;
+}

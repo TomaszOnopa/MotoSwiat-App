@@ -1,0 +1,21 @@
+.slider {
+    position: relative;
+}
+.slider img {
+    width: 100%;
+}
+.slider .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+.slider .left {
+    left: 20px;
+}
+.slider .right {
+    right: 20px;
+}

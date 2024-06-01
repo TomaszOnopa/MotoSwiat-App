@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: zpaBD
+  datasource:
+    url: jdbc:mysql://localhost:3307/moto_db?useSSL=false&serverTimezone=Europe/Warsaw
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: moto_swiat
+    password: moto_pass
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    database: mysql
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect

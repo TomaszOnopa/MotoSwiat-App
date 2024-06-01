@@ -1,0 +1,27 @@
+.specs-table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.specs-table {
+    width: 70%;
+    border: 2px solid lightgray;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-spacing: 0px;
+    margin-bottom: 20px;
+}
+.specs-table th {
+    padding: 10px;
+    color: white;
+    background-color: rgb(140, 20, 20);
+}
+.specs-table tr:nth-child(odd) {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+.specs-table td:nth-child(even) {
+    text-align: right;
+}
+.specs-table td {
+    padding: 8px 10px;
+}

@@ -1,0 +1,22 @@
+.version-container {
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+}
+
+.version-wrapper {
+    width: 100%;
+}
+
+.version-item {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 2px solid rgb(140, 20, 20);
+}
+
+.version-item:hover {
+    background-color: rgb(224, 224, 224);
+}

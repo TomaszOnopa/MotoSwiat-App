@@ -1,0 +1,45 @@
+.nav-section {
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(220, 20, 20) 0%, rgb(140, 20, 20) 100%);
+}
+.nav-section a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+}
+.nav-section a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.subnav-section {
+    overflow: hidden;
+    background-color: rgba(140, 20, 20, 0.45);
+    border-bottom: 2px solid rgb(140, 20, 20);
+}
+.subnav-section a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+}
+.subnav-section a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+
+
+.navbar-left {
+    float: left;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.logo-img {
+    height: 50px;
+    margin: 8px;
+}

@@ -1,0 +1,34 @@
+.article-container {
+    margin: 20px;
+    border-bottom: 5px solid rgb(140, 20, 20);
+}
+
+.article-item .img {
+    width: 40%;
+    padding: 2%;
+    margin: 20px;
+    border: 1px solid black;
+}
+.article-item .img img {
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 16/10;
+}
+
+.article-item .title {
+    width: 70%;
+    margin: 20px;
+}
+
+.search-article-form {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search-article-form input {
+    font-size: 1em;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,25 @@
+.user-search-button {
+    margin: 10px 0px 10px 10px;
+}
+
+.user-list-item {
+    justify-content: center;
+}
+.user-list-item:nth-child(odd) {
+    background-color: rgb(230, 230, 230);
+}
+.user-list-item * {
+    align-items: center;
+}
+.user-list-item .username {
+    width: 60%;
+    padding: 0px 10px;
+}
+.user-list-item .role {
+    width: 20%;
+    margin: 2px;
+}
+.user-list-item .button {
+    width: 20%;
+    margin: 2px;
+}
