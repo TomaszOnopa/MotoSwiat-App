@@ -87,6 +87,7 @@ const AdminPage=()=>{
                 <option value="USER">Użytkownik</option>
                 <option value="BANNED">Zablokowany</option>
                 <option value="ADMIN">Administrator</option>
+                <option value="PUBLICIST">Publicysta</option>
             </select>
             <button className='button' type='button' onClick={() => changeRole(user.userId, user.username, user.role)}>Zatwierdź</button>
         </div>

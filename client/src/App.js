@@ -18,6 +18,7 @@ import Login from './component/Login';
 import Register from './component/Register';
 import AdminPage from './component/AdminPage';
 import PrivateComponent from './PrivateComponent';
+import NewArticle from './component/NewArticle';
 
 const App=()=> {
   return (
@@ -50,6 +51,11 @@ const App=()=> {
           <Route path='/zaloguj' element={<Login/>}/>
           <Route path='/zarejestruj' element={<Register/>}/>
           <Route path='/403' element={<Forbidden/>}/>
+          <Route path='/dodaj-artykul' element={
+            <PrivateComponent roles={["ROLE_PUBLICIST"]}>
+              <NewArticle/>
+            </PrivateComponent>
+          }/>
           <Route path='/admin' element={
             <PrivateComponent roles={["ROLE_ADMIN"]}>
               <AdminPage/>

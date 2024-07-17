@@ -31,6 +31,7 @@ public class SecurityConfig {
                         .requestMatchers("/api/fuel/add").hasAnyAuthority("USER", "ADMIN")
                         .requestMatchers("/api/fuel/delete", "/api/fuel/users-list").authenticated()
                         .requestMatchers("/api/fuel/**").permitAll()
+                        .requestMatchers("/api/article/add-img", "/api/article/add-article").hasAuthority("PUBLICIST")
                         .requestMatchers("/api/article/**").permitAll()
                         .requestMatchers("/api/admin/**").hasAuthority("ADMIN")
                         .anyRequest().authenticated())

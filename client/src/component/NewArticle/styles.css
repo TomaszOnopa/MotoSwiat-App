@@ -1,0 +1,9 @@
+.article-form h3 {
+    margin-bottom: 0%;
+}
+.article-form textarea {
+    min-height: 300px;
+}
+.article-form button {
+    margin-top: 10px;
+}
